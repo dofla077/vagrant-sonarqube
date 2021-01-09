@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sonarqube:
+    image: 'sonarqube'
+    ports:
+      - '80:9000'
+    restart: always
