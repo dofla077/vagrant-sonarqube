@@ -4,4 +4,4 @@ services:
     image: 'sonarqube'
     ports:
       - '80:9000'
-    restart: always
+    #restart: always
